@@ -5,7 +5,7 @@ jobs:
         strategy:
             matrix:
                 include: [
-                    { platform: s390x }
+                    { platform: ppc64le }
                 ]
         runs-on: ubuntu-latest
         steps:
